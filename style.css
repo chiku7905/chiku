@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+
+.headercontainer{
+    background-color: black;
+    color: aqua;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Question styling here */
+.q1,.q2{
+
+    background-color: rgb(120, 140, 255);
+    color: black;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 50px 20px 20px 50px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgb(0, 0, 0);
+border-radius: 20px;
+}
+
+/* option-container styling here */
+
+.op1,.op2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(126, 123, 123);
+    padding: 20px 40px 20px 40px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+/* options styling here */
+
+.q1b1,.q1b2,.q1b3,.q1b4,
+.q2b1,.q2b2,.q2b3,.q2b4{
+    background-color: aqua;
+    padding: 20px 40px 20px 40px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: larger;
+
+}
+
+/* *******OPTION CHOOSING STYLING******/
+
+/* QUESTION 1 */
+.q1b1:hover{
+    background-color: rgb(2, 248, 125);
+    
+}
+.q1b2:hover{
+    background-color: rgb(248, 2, 2);
+}
+.q1b3:hover{
+    background-color: rgb(248, 2, 2);
+}
+.q1b4:hover{
+    background-color: rgb(248, 2, 2);
+}
+
+/* QUESTION 2 */
+.q2b1:hover{
+    background-color: rgb(248, 2, 2);
+    
+}
+.q2b2:hover{
+    background-color: rgb(248, 2, 2);
+}
+.q2b3:hover{
+    background-color: rgb(248, 2, 2);
+}
+.q2b4:hover{
+    background-color: rgb(2, 248, 125);
+}
