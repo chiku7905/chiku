@@ -20,8 +20,8 @@ document.querySelector("form").addEventListener("submit", (event) => {
     let enteredPassword = passwordRef.value.trim();
 
     if (validUsers[enteredUsername] && validUsers[enteredUsername] === enteredPassword) {
-        alert("Login successful! Redirecting to Google...");
-        window.location.href = "https://www.google.com"; // Redirect to Google
+        alert("Login successful!");
+        window.location.href = "/localindex.html"; // Redirect to Google
     } else {
         alert("Invalid username or password. Please try again!");
     }
